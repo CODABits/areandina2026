@@ -61,6 +61,8 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
 
+
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -7414,3 +7416,12 @@ form .row:first-child .floating-label-form-group {
 
 .btn-social {
   margin-bottom: 0.5rem; }
+
+  body{
+cursor:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><defs><filter id="s"><feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="%235091b9"/></filter></defs><text filter="url(%23s)" x="0" y="14">👨‍🎓</text></svg>') 14 2, auto;
+}
+
+/* Mantener mano en botones y links */
+a, button, .btn, .portfolio-item{
+cursor:pointer !important;
+}
